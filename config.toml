@@ -1,0 +1,35 @@
+baseURL = "https://emar10.dev/"
+languageCode = "en-us"
+title = "Ethan Martin"
+
+theme = "hugo-coder"
+
+pygmentsStyle = "xcode"
+pygmentsCodeFences = true
+pygmentsCodeFencesGuessSyntax = true
+
+[params]
+    author = "Ethan Martin"
+    info = "Software engineer. Tech enthusiast. Okay-ish trumpeter."
+    description = "Ethan Martin's personal website and blog."
+
+[[params.social]]
+    name = "GitHub"
+    icon = "fab fa-github fa-2x"
+    weight = 1
+    url = "https://github.com/emar10/"
+[[params.social]]
+    name = "Email"
+    icon = "fas fa-envelope fa-2x"
+    weight = 1
+    url = "mailto:ethan@emar10.dev"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin fa-2x"
+    weight = 1
+    url = "https://linkedin.com/in/ethan-martin/"
+
+[[menu.main]]
+    name = "Blog"
+    weight = 1
+    url = "/blog/"
