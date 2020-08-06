@@ -1,12 +1,15 @@
-FROM alpine:3.11
+FROM alpine:3.12
 
-ADD https://github.com/gohugoio/hugo/releases/download/v0.69.0/hugo_0.69.0_Linux-64bit.tar.gz /
-RUN tar xf /hugo_0.69.0_Linux-64bit.tar.gz
+RUN apk add git
+ADD https://github.com/gohugoio/hugo/releases/download/v0.74.3/hugo_0.74.3_Linux-64bit.tar.gz /
+RUN tar xf hugo_0.74.3_Linux-64bit.tar.gz
 RUN /hugo version
 WORKDIR /build
 COPY . .
 RUN /hugo --minify
+RUN ls /build/public
 
-FROM caddy:2.0.0-rc.3-alpine
-WORKDIR /usr/share/caddy
+FROM caddy:2-alpine
+WORKDIR /var/www/html
 COPY --from=0 /build/public .
+COPY Caddyfile /etc/caddy/Caddyfile
