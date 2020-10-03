@@ -9,7 +9,7 @@ pygmentsCodeFencesGuessSyntax = true
 
 [params]
     author = "Ethan Martin"
-    info = "Software engineer. Tech enthusiast. Okay-ish trumpeter."
+    info = "Software engineer. Tech enthusiast. Mediocre trumpeter."
     description = "Ethan Martin's personal website and blog."
 
 [[params.social]]
