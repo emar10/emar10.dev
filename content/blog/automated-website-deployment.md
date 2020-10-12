@@ -80,6 +80,8 @@ watchtower:
   image: containrr/watchtower
   environment:
     - WATCHTOWER_LABEL_ENABLE
+  volumes:
+    - /var/run/docker.sock:/var/run/docker.sock
 
 website:
   labels:
