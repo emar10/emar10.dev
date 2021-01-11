@@ -12,19 +12,23 @@ pygmentsCodeFencesGuessSyntax = true
     info = "Software engineer. Tech enthusiast. Mediocre trumpeter."
     description = "Ethan Martin's personal website and blog."
 
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+
 [[params.social]]
     name = "GitHub"
-    icon = "fab fa-github fa-2x"
+    icon = "fa fa-github fa-2x"
     weight = 1
     url = "https://github.com/emar10/"
 [[params.social]]
     name = "Email"
-    icon = "fas fa-envelope fa-2x"
+    icon = "fa fa-envelope fa-2x"
     weight = 1
     url = "mailto:ethan@emar10.dev"
 [[params.social]]
     name = "LinkedIn"
-    icon = "fab fa-linkedin fa-2x"
+    icon = "fa fa-linkedin fa-2x"
     weight = 1
     url = "https://linkedin.com/in/ethan-martin/"
 
@@ -32,3 +36,8 @@ pygmentsCodeFencesGuessSyntax = true
     name = "Blog"
     weight = 1
     url = "/blog/"
+
+[[menu.main]]
+    name = "Tags"
+    weight = 2
+    url = "/tags/"
