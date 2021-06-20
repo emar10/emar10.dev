@@ -11,6 +11,12 @@ pygmentsCodeFencesGuessSyntax = true
     author = "Ethan Martin"
     info = "Software engineer. Tech enthusiast. Mediocre trumpeter."
     description = "Ethan Martin's personal website and blog."
+    avatarurl = "images/portrait.jpg"
+
+    colorScheme = "light"
+    hideColorSchemeToggle = "true"
+
+    maxSeeAlsoItems = 5
 
 [taxonomies]
     tag = "tags"
@@ -33,9 +39,9 @@ pygmentsCodeFencesGuessSyntax = true
     url = "https://linkedin.com/in/ethan-martin/"
 
 [[menu.main]]
-    name = "Blog"
+    name = "Posts"
     weight = 1
-    url = "/blog/"
+    url = "/posts/"
 
 [[menu.main]]
     name = "Tags"
