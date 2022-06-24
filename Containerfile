@@ -1,4 +1,4 @@
-FROM alpine:edge
+FROM docker.io/alpine:edge
 
 RUN apk add hugo
 RUN hugo version
@@ -8,7 +8,7 @@ WORKDIR /src
 RUN hugo --minify
 RUN ls /src/public
 
-FROM caddy:2-alpine
+FROM docker.io/library/caddy:2-alpine
 
 COPY Caddyfile /etc/caddy/Caddyfile
 COPY --from=0 /src/public /var/www/html
