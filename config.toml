@@ -41,6 +41,7 @@ pygmentsCodeFencesGuessSyntax = true
 [params.plausibleAnalytics]
     domain = "emar10.dev"
     serverURL = "oracle.emar10.dev"
+    scriptName = "script"
 
 [[menu.main]]
     name = "Posts"
