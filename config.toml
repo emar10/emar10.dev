@@ -38,6 +38,10 @@ pygmentsCodeFencesGuessSyntax = true
     weight = 1
     url = "https://linkedin.com/in/ethan-martin/"
 
+[params.plausibleAnalytics]
+    domain = "emar10.dev"
+    serverURL = "oracle.emar10.dev"
+
 [[menu.main]]
     name = "Posts"
     weight = 1
