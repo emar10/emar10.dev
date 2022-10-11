@@ -1,5 +1,5 @@
 +++ 
-draft = true
+draft = false
 date = 2022-10-11T15:42:06-04:00
 title = "Recipe Manager Week 1 Update"
 description = ""
