@@ -52,3 +52,8 @@ pygmentsCodeFencesGuessSyntax = true
     name = "Tags"
     weight = 2
     url = "/tags/"
+
+[[menu.main]]
+    name = "Cookbook"
+    weight = 3
+    url = "/cookbook/"

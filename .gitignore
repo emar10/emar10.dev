@@ -1,3 +1,6 @@
 public/
 resources/
+content/cookbook/*
 .hugo_build.lock
+
+!content/cookbook/_index.md
