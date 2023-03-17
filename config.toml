@@ -3,15 +3,15 @@ title = "Ethan Martin"
 
 theme = "hugo-coder"
 
-pygmentsStyle = "xcode"
-pygmentsCodeFences = true
-pygmentsCodeFencesGuessSyntax = true
+[markup.highlight]
+style = "catppuccin-latte"
 
 [params]
     author = "Ethan Martin"
     info = "Software engineer. Tech enthusiast. Mediocre trumpeter."
     description = "Ethan Martin's personal website and blog."
     avatarurl = "images/portrait.jpg"
+    since = 2019
 
     colorScheme = "light"
     hideColorSchemeToggle = "true"
