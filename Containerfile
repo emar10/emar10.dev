@@ -1,4 +1,4 @@
-FROM docker.io/rust:1.68 as sous
+FROM docker.io/rust:1-alpine as sous
 
 RUN cargo install --version ~0.3 sous
 COPY ./cookbook /cookbook
