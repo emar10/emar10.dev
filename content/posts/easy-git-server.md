@@ -1,5 +1,4 @@
 +++ 
-draft = true
 date = 2024-01-20
 title = "You (probably) don't need a self-hosted code forge"
 description = "Exploiting SSH, Git, and whatever hardware you've got laying around for a dead simple, dead easy secondary remote."
