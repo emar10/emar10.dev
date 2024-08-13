@@ -1,5 +1,5 @@
 +++ 
-draft = true
+draft = false
 date = 2024-08-12T19:06:21-04:00
 title = "Trying out Atomic Desktops"
 description = "In which I try out a \"new\" kind of Linux Desktop and attempt to validate my distro-hopping by writing a blog post about it."
