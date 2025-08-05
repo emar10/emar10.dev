@@ -1,5 +1,5 @@
 +++ 
-draft = true
+draft = false
 date = 2025-08-05T15:12:14-04:00
 title = "Cursed Commands - No SCP? No problem!"
 description = "In which I go to greath lengths to find a lazier way to move a file."
