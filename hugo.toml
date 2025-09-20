@@ -1,5 +1,6 @@
 languageCode = "en-us"
 title = "Ethan Martin"
+baseURL = "https://emar10.dev/"
 
 theme = "hugo-coder"
 
