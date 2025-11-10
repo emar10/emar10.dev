@@ -1,0 +1,19 @@
+{{- $emailLink := "" -}}
+{{- with .Site.Params.social -}}
+  {{- with (first 1 (where . "name" "Email")) -}}
+    {{- $emailLink = (index . 0).url -}}
+  {{- end -}}
+{{- end -}}
+{{- if eq $emailLink "" -}}
+  {{- $emailLink = "mailto:ethan@emar10.dev" -}}
+{{- end -}}
+{{- $subject := printf "RE: %s" .Title | urlquery -}}
+{{- $separator := "?" -}}
+{{- if in $emailLink "?" -}}
+  {{- $separator = "&" -}}
+{{- end -}}
+{{- $mailto := printf "%s%ssubject=%s" $emailLink $separator $subject -}}
+<p class="post-invite">
+  Have feedback on this post?
+  <a href="{{ $mailto }}">Email me your thoughts</a>.
+</p>
